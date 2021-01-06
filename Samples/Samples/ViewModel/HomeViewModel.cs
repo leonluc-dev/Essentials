@@ -85,6 +85,12 @@ namespace Samples.ViewModel
                     "Get and add contacts in your device.",
                     new[] { "contacts", "people", "device" }),
                 new SampleItem(
+                    "📅",
+                    "Date Formatting",
+                    typeof(DateFormattingPage),
+                    "Format date and time according to the locale settings of the device",
+                    new[] { "date", "time", "formatting" }),
+                new SampleItem(
                     "📱",
                     "Device Info",
                     typeof(DeviceInfoPage),

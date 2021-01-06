@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<view:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.View.DateFormattingPage"
+             xmlns:view="clr-namespace:Samples.View"
+             xmlns:viewmodel="clr-namespace:Samples.ViewModel">
+    <view:BasePage.BindingContext>
+        <viewmodel:DateFormattingViewModel/>
+    </view:BasePage.BindingContext>
+    <ScrollView>
+        <StackLayout Padding="12,0,12,12" Spacing="6">
+            <Label Text="Current date and time (Platform date formatting):" FontAttributes="Bold" Margin="0,6,0,0" />
+            <Label Text="{Binding CurrentPlatformLongDate, StringFormat='Long date: {0}'}" />
+            <Label Text="{Binding CurrentPlatformShortDate, StringFormat='Short date: {0}'}" />
+            <Label Text="{Binding CurrentPlatformLongTime, StringFormat='Long time: {0}'}" />
+            <Label Text="{Binding CurrentPlatformShortTime, StringFormat='Short time: {0}'}" />
+            <Label Text="Current date and time (.NET date formatting):" FontAttributes="Bold" Margin="0,6,0,0" />
+            <Label Text="{Binding CurrentLongDate, StringFormat='Long date: {0}'}" />
+            <Label Text="{Binding CurrentShortDate, StringFormat='Short date: {0}'}" />
+            <Label Text="{Binding CurrentLongTime, StringFormat='Long time: {0}'}" />
+            <Label Text="{Binding CurrentShortTime, StringFormat='Short time: {0}'}" />
+        </StackLayout>
+    </ScrollView>
+</view:BasePage>
