@@ -2,7 +2,7 @@
 
 namespace Xamarin.Essentials
 {
-    public static partial class DateFormatting
+    public static partial class DateTimeFormatting
     {
         public static string ToPlatformShortDateString(this DateTime dateTime)
         {

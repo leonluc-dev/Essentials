@@ -6,7 +6,7 @@ using JavaTimeZone = Java.Util.TimeZone;
 
 namespace Xamarin.Essentials
 {
-    public static partial class DateFormatting
+    public static partial class DateTimeFormatting
     {
         static string PlatformToPlatformShortDateString(DateTime datetime)
         {

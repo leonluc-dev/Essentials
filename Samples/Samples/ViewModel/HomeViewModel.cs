@@ -86,8 +86,8 @@ namespace Samples.ViewModel
                     new[] { "contacts", "people", "device" }),
                 new SampleItem(
                     "📅",
-                    "Date Formatting",
-                    typeof(DateFormattingPage),
+                    "DateTime Formatting",
+                    typeof(DateTimeFormattingPage),
                     "Format date and time according to the locale settings of the device",
                     new[] { "date", "time", "formatting" }),
                 new SampleItem(

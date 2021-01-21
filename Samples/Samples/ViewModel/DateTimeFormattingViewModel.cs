@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using Xamarin.Essentials;
 
 namespace Samples.ViewModel
 {
-    public class DateFormattingViewModel : BaseViewModel
+    public class DateTimeFormattingViewModel : BaseViewModel
     {
         readonly DateTime currentDate = DateTime.Now;
 

@@ -2,26 +2,26 @@
 
 namespace Xamarin.Essentials
 {
-    public static partial class DateFormatting
+    public static partial class DateTimeFormatting
     {
         static string PlatformToPlatformShortDateString(DateTime datetime)
         {
-            return datetime.ToShortDateString();
+            throw ExceptionUtils.NotSupportedOrImplementedException;
         }
 
         static string PlatformToPlatformShortTimeString(DateTime datetime)
         {
-            return datetime.ToShortTimeString();
+            throw ExceptionUtils.NotSupportedOrImplementedException;
         }
 
         static string PlatformToPlatformLongDateString(DateTime datetime)
         {
-            return datetime.ToLongDateString();
+            throw ExceptionUtils.NotSupportedOrImplementedException;
         }
 
         static string PlatformToPlatformLongTimeString(DateTime datetime)
         {
-            return datetime.ToLongTimeString();
+            throw ExceptionUtils.NotSupportedOrImplementedException;
         }
     }
 }

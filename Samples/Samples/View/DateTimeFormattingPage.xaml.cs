@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,9 +9,9 @@ using Xamarin.Forms.Xaml;
 
 namespace Samples.View
 {
-    public partial class DateFormattingPage : BasePage
+    public partial class DateTimeFormattingPage : BasePage
     {
-        public DateFormattingPage()
+        public DateTimeFormattingPage()
         {
             InitializeComponent();
         }
